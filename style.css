@@ -78,7 +78,6 @@ header {
   border: 4px solid #449399;
 }
 .header_bottom {
-  width: 100%;
   background-color: #222a33;
   color: white;
   font-size: 0.8rem;
@@ -179,4 +178,21 @@ main {
 }
 .education h3 {
   margin-top: 1rem;
+}
+/* ============================================== */
+
+@media only screen and (max-width: 700px) {
+  .education {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .education .languages h1 {
+    margin-top: 1.5rem;
+  }
+  .header_top {
+    flex-direction: column-reverse;
+  }
+  .header_bottom {
+    flex-direction: column;
+  }
 }
