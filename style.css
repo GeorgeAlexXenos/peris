@@ -198,4 +198,7 @@ main {
   .header_bottom ul:last-of-type {
     margin-top: 1rem;
   }
+  .header_top img {
+    margin: 0 auto;
+  }
 }
