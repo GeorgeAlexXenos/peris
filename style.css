@@ -162,12 +162,12 @@ main {
 /*============ arrow back ============= */
 .back {
   position: fixed;
-  bottom: 0.1rem;
-  right: -0.8rem;
+  bottom: 0.8rem;
+  right: 0;
 }
 .back .far {
   font-size: 2rem;
-  color: white;
+  color: #449399;
 }
 
 /* ======================================= */
