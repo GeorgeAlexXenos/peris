@@ -35,11 +35,13 @@ header {
   display: flex;
 }
 .header a {
+  padding: 1rem;
   color: rgb(221, 220, 220);
-  transition: color 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 .header a:hover {
   color: white;
+  background-color: #6b6f72;
 }
 .header li {
   display: inline-block;
@@ -189,6 +191,11 @@ main {
 .back .far {
   font-size: 2rem;
   color: #449399;
+  transition: transform 200ms ease-in-out;
+}
+.back .far:hover {
+  transform: scale(1.05);
+  color: #53b3b9;
 }
 
 /* ======================================= */
@@ -221,5 +228,8 @@ main {
   }
   .header_top img {
     margin: 0 auto;
+  }
+  .header a {
+    font-size: 1.1rem;
   }
 }
