@@ -35,6 +35,10 @@ header {
   display: flex;
 }
 .header a {
+  color: rgb(221, 220, 220);
+  transition: color 250ms ease-in-out;
+}
+.header a:hover {
   color: white;
 }
 .header li {
@@ -72,10 +76,14 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 140px;
+  max-width: 125px;
   margin-left: 5rem;
   border-radius: 50%;
   border: 4px solid #449399;
+  transition: transform 300ms ease-in-out;
+}
+.header_top img:hover {
+  transform: scale(1.05);
 }
 .header_bottom {
   background-color: #222a33;
@@ -86,7 +94,11 @@ header {
   padding: 1rem 3rem 1rem 2rem;
 }
 .header_bottom a {
-  color: white;
+  color: rgb(223, 223, 223);
+  transition: transform 250ms ease-in-out;
+}
+.header_bottom a:hover {
+  color: rgb(255, 255, 255);
 }
 .header_bottom li {
   list-style: none;
@@ -126,6 +138,10 @@ main {
 }
 .projects a {
   color: black;
+  transition: all 250ms ease-in-out;
+}
+.projects a:hover {
+  font-weight: 500;
 }
 .projects h4 {
   margin: 0.5rem;
@@ -153,10 +169,15 @@ main {
 }
 .skills_details p {
   padding: 0.5rem;
-  margin: 0.1rem;
-  background-color: rgb(121, 121, 121);
+  margin: 0.15rem;
+  background-color: rgb(102, 102, 102);
   border-radius: 5px;
+  color: rgb(221, 221, 221);
+  transition: all 500ms ease-in;
+}
+.skills_details p:hover {
   color: white;
+  font-weight: 600;
 }
 
 /*============ arrow back ============= */
