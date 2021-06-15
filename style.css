@@ -35,7 +35,7 @@ header {
   display: flex;
 }
 .header a {
-  padding: 1rem;
+  padding: 0.4rem;
   color: rgb(221, 220, 220);
   transition: all 250ms ease-in-out;
 }
@@ -47,7 +47,7 @@ header {
   display: inline-block;
   list-style: none;
   padding: 0.5rem;
-  margin-right: 1rem;
+  margin-right: 0.2rem;
 }
 .header_top {
   padding: 2rem 2rem 1rem 2rem;
