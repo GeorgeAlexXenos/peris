@@ -234,4 +234,7 @@ main {
   .header a {
     font-size: 1.2rem;
   }
+  .skills_details p {
+    font-size: 0.9rem;
+  }
 }
