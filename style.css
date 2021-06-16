@@ -106,6 +106,14 @@ header {
 .header_bottom li {
   list-style: none;
 }
+.header_p {
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  transition: background-color 300ms ease-in-out;
+}
+.header_p:hover {
+  background-color: #2d3746;
+}
 .location,
 .date {
   margin: 1rem 0;
@@ -137,8 +145,13 @@ main {
   flex-direction: column;
 }
 .project {
+  border-radius: 0.5rem 0.5rem 0 0;
   border-bottom: 2px solid #313c4e;
   padding: 0.5rem;
+  transition: background-color 250ms ease-in-out;
+}
+.project:hover {
+  background-color: rgb(255, 246, 234);
 }
 .projects a {
   color: black;
@@ -164,6 +177,10 @@ main {
 /* ========================================= */
 
 /*========================== skills ========================== */
+.skills {
+  background-color: rgb(231, 231, 231);
+  border-radius: 0.5rem;
+}
 .skills_details {
   display: flex;
   flex-wrap: wrap;
