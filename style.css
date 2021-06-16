@@ -238,6 +238,8 @@ main {
   }
   .header_top {
     flex-direction: column-reverse;
+    padding-bottom: 1.3rem;
+    padding-top: 1.3rem;
   }
   .header_bottom {
     flex-direction: column;
